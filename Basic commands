@@ -1,5 +1,7 @@
+<hx>Basic Commands</hx> 
 
-Working Directory ------> Staging Area ------> Local Repository ------> Remote Repository
+
+<b>Working Directory ------> Staging Area ------> Local Repository ------> Remote Repository </b>
 
 1. git add 
 command used to add a file that is in the working directory to the staging area.
@@ -34,5 +36,6 @@ git init
 Clone GitHub Repository
 git clone [repository_url]
 
-**Note: Click the Code button and select the HTTPS or SSH option, depending on how you want to secure your connection. For this tutorial, we will use HTTPS. Copy the URL for cloning the repository.**
-**Note: To clone a repository using SSH, you must generate an SSH key pair on your Windows workstation and assign the public key to your GitHub account.**
+Note: Click the Code button and select the HTTPS or SSH option, depending on how you want to secure your connection. For this tutorial, we will use HTTPS. Copy the URL for cloning the repository.
+Note: To clone a repository using SSH, you must generate an SSH key pair on your Windows workstation and assign the public key to your GitHub account.
+
