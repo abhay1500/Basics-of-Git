@@ -17,4 +17,22 @@ command used to get files from the remote repository to the local repository but
 command used to get the files from the local repository into the working directory.
 
 6. git pull
-command used to get files from the remote repository directly into the working directory. It is equivalent to a git fetch and a git merge .
+command used to get files from the remote repository directly into the working directory. It is equivalent to a git fetch and a git merge.
+
+7. git --version
+shows which Git version is installed on the system.
+
+8. git help -a
+Git has a help file that lists the most commonly used Git commands.
+
+Create and Initialize Test Directory
+mkdir [directory_name]
+cd [directory_name]
+git init
+
+
+Clone GitHub Repository
+git clone [repository_url]
+
+**Note: Click the Code button and select the HTTPS or SSH option, depending on how you want to secure your connection. For this tutorial, we will use HTTPS. Copy the URL for cloning the repository.**
+**Note: To clone a repository using SSH, you must generate an SSH key pair on your Windows workstation and assign the public key to your GitHub account.**
