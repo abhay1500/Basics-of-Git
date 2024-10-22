@@ -1,6 +1,8 @@
 How to setup Git on windows device.
 
-Open Powershell and run the command: winget install --id Git.Git -e --source winget
+Open Powershell and run the command: 
+
+winget install --id Git.Git -e --source winget
 
 Configuring Git on Windows
 After installing Git, there are some options that you should configure to customize your Git environment. These configurations stick between upgrades, so they should be done only once after a fresh install. This section shows how to set up Git after installation.
