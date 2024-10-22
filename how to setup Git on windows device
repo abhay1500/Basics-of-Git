@@ -1,0 +1,30 @@
+How to setup Git on windows device.
+
+Open Powershell and run the command: winget install --id Git.Git -e --source winget
+
+Configuring Git on Windows
+After installing Git, there are some options that you should configure to customize your Git environment. These configurations stick between upgrades, so they should be done only once after a fresh install. This section shows how to set up Git after installation.
+
+Configure Identity
+Your identity in Git is your username and email address which Git uses every time you create a commit. To set up your identity, open Git Bash and use the syntax below:
+
+git config --global user.name "[username]"
+git config --global user.email [email]
+
+Change Default Text Editor
+
+git config --global core.editor [path_to_editor_exe_file]
+
+The path to the editor's executable file can differ based on how your editor is packaged and whether it is a 32-bit or 64-bit system. For example, to set Notepad++ as the default editor for Git, run the following command:
+
+git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+
+-multiInst - This option tells Notepad++ to open files in a new instance rather than reusing an existing instance. It is useful if you want to edit multiple files simultaneously.
+-notabbar - This option hides the tab bar in Notepad++, which is useful when working with a single file at a time.
+-nosession - This option prevents Notepad++ from restoring the last session on startup. It opens Notepad++ with a clean slate without previously opened files.
+-noPlugin - This option disables all plugins in Notepad++. It is useful if you want to minimize the startup time or if you prefer to work without plugins.
+
+Change Default Branch Name
+The default branch in Git is master. However, some developers have started using main instead. If your organization wants to change the default branch name, you can do so using the syntax below:
+
+git config --global init.defaultBranch [branch_name]
